@@ -1,0 +1,28 @@
+[project]
+name = "cube-recognition"
+version = "0.1.0"
+description = "Cube recognition and AR rendering project"
+copyright = "Copyright (c) 2026. All rights reserved."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "opencv-contrib-python>=4.13.0.92",
+    "opencv-python>=4.13.0.92",
+    "pyopengl>=3.1.10",
+    "setuptools>=82.0.1",
+]
+
+# CPython 解释器下载加速（必须放在 [[index]] 段落上方）
+python-install-mirror = "https://cnb.cool/astral-sh/python-build-standalone/-/releases/download/"
+
+# PyPI 国内镜像源配置
+[[index]]
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/simple"
+default = true
+
+[[index]]
+url = "https://mirrors.aliyun.com/pypi/simple"
+
+[[index]]
+url = "https://pypi.mirrors.ustc.edu.cn/simple"
