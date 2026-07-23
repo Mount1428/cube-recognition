@@ -10,7 +10,7 @@ dependencies = [
     "opencv-contrib-python>=4.13.0.92",
     "opencv-python>=4.13.0.92",
     "pyopengl>=3.1.10",
-    "setuptools>=82.0.1",
+    "setuptools>=83.0.0",
 ]
 
 # CPython 解释器下载加速（必须放在 [[index]] 段落上方）
